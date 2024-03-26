@@ -1,0 +1,8 @@
+*{
+  margin: 0;
+  padding: 3px;
+  
+    overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  
+}

@@ -1,0 +1,67 @@
+/* tasklist.css */
+.task-list-container {
+    display: flex;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    white-space: nowrap; /* Prevent items from wrapping */
+    padding: 10px; /* Optional: Add padding for better spacing */
+    list-style: none; /* Remove bullet points */
+    background-color: cadetblue;
+  }
+  
+  .task-list-item {
+    flex: 0 0 auto; /* Disable flex-grow to prevent stretching */
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-width: 300px; /* Optional: Adjust maximum width as needed */
+    background-color: grey;
+    border-radius: 5px;
+  }
+  
+  .taskselect{
+    width: 40%;
+    padding: 5px;
+   
+  }
+
+  .tasklistdiv{
+    background-color: blueviolet;
+  }
+  .editbtn{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(59, 48, 217));
+
+    
+  }
+
+  .deletebtn{
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+
+  }
+.edit-div-btn{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.savebtn{
+  border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(0, 128, 11));
+
+}
+
+.resetbtn{
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(153, 140, 1));
+
+}

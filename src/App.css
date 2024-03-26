@@ -1,0 +1,26 @@
+.left{
+
+  display: flex;
+}
+
+.top-div{
+  display: flex;
+  width: 50%;
+}
+.right{
+  display: flex;
+  
+  align-items: flex-end;
+}
+
+.main-div2{
+  border-color: red;
+  border: 2px;
+  border-width: 2px;
+  border-style: double;
+  border-radius: 5px;
+  width: 99%;
+  height: 90vh;
+  
+}
+

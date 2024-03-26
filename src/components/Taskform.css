@@ -1,0 +1,145 @@
+
+.modal {
+  display: flex;
+  justify-content: center; /* Align horizontally in center */
+  align-items: center; /* Align vertically in center */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 800px; /* Adjust width as needed */
+  position: absolute;
+}
+
+.close {
+  position: relative;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  margin-left: 98%;
+}
+
+
+/* mine */
+
+.newtaskbtn{
+  color: yellow;
+  border-radius: 5px;
+  background-color: violet;
+  padding: 5px;
+}
+
+input[type=text], select, textarea {
+  width: 85%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.modal-content {
+  border-radius: 5px;
+  background-color: darkgrey;
+  padding: 10px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+  
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.top-left-div{
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.top-left-div label,
+.top-left-div select,
+.top-left-div input[type="date"] {
+  margin-right: 10px; /* Add some spacing between elements */
+}
+
+.top-left-div select {
+  width: 100px; /* Set the width to your desired size */
+}
+
+.top-left-div {
+  display: flex;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.top-left-div label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #333;
+}
+
+.top-left-div select,
+.top-left-div input[type="date"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.top-left-div select {
+  width: 120px;
+}
+
+.top-left-div input[type="date"] {
+  width: 150px;
+}
